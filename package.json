@@ -1,6 +1,6 @@
 {
   "name": "@samverschueren/stream-to-observable",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Convert Node Streams into ECMAScript-Observables",
   "license": "MIT",
   "repository": "SamVerschueren/stream-to-observable",
