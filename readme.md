@@ -1,3 +1,5 @@
+This is a fork of [SamVerschueren/stream-to-observable](https://github.com/SamVerschueren/stream-to-observable).
+
 # stream-to-observable [![Build Status](https://travis-ci.org/teppeis/stream-to-observable.svg?branch=master)](https://travis-ci.org/teppeis/stream-to-observable) [![Coverage Status](https://coveralls.io/repos/github/teppeis/stream-to-observable/badge.svg?branch=master)](https://coveralls.io/github/teppeis/stream-to-observable?branch=master)
 
 > Convert Node Streams into ECMAScript-Observables
