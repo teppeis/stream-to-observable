@@ -1,14 +1,13 @@
 {
-  "name": "@samverschueren/stream-to-observable",
+  "name": "@teppeis/stream-to-observable",
   "version": "0.3.0",
   "description": "Convert Node Streams into ECMAScript-Observables",
   "license": "MIT",
-  "repository": "SamVerschueren/stream-to-observable",
+  "repository": "teppeis/stream-to-observable",
   "maintainers": [
     {
-      "name": "Sam Verschueren",
-      "email": "sam.verschueren@gmail.com",
-      "url": "github.com/SamVerschueren"
+      "name": "Teppei Sato",
+      "email": "teppeis@gmail.com"
     }
   ],
   "engines": {
