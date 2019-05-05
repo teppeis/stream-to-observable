@@ -1,4 +1,4 @@
-# stream-to-observable [![Build Status](https://travis-ci.org/SamVerschueren/stream-to-observable.svg?branch=master)](https://travis-ci.org/SamVerschueren/stream-to-observable) [![Coverage Status](https://coveralls.io/repos/github/SamVerschueren/stream-to-observable/badge.svg?branch=master)](https://coveralls.io/github/SamVerschueren/stream-to-observable?branch=master)
+# stream-to-observable [![Build Status](https://travis-ci.org/teppeis/stream-to-observable.svg?branch=master)](https://travis-ci.org/teppeis/stream-to-observable) [![Coverage Status](https://coveralls.io/repos/github/teppeis/stream-to-observable/badge.svg?branch=master)](https://coveralls.io/github/teppeis/stream-to-observable?branch=master)
 
 > Convert Node Streams into ECMAScript-Observables
 
@@ -11,7 +11,7 @@
 ## Install
 
 ```
-$ npm install --save @samverschueren/stream-to-observable
+$ npm install --save @teppeis/stream-to-observable
 ```
 
 `stream-to-observable` relies on [`any-observable`](https://github.com/sindresorhus/any-observable), which will search for an available Observable implementation. You need to install one yourself:
@@ -34,7 +34,7 @@ If your code relies on a specific Observable implementation, you should likely s
 const fs = require('fs');
 const split = require('split');
 
-const streamToObservable = require('@samverschueren/stream-to-observable');
+const streamToObservable = require('@teppeis/stream-to-observable');
 
 const readStream = fs
   .createReadStream('./hello-world.txt', {encoding: 'utf8'})
