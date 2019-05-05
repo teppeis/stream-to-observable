@@ -1,6 +1,6 @@
 {
   "name": "@teppeis/stream-to-observable",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Convert Node Streams into ECMAScript-Observables",
   "license": "MIT",
   "repository": "teppeis/stream-to-observable",
